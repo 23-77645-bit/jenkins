@@ -3,7 +3,6 @@ pipeline {
     environment {
         GIT_REPO_URL = 'https://github.com/23-77645-bit/jenkins.git'
         GIT_CREDENTIALS_ID = "2026"
-        "GIT_CREDENTIALS_ID = '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'"
         GIT_BRANCH = 'main'
     }
     stages {
